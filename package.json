@@ -1,0 +1,19 @@
+{
+  "name": "acmegallery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomlazersheep/acmeGallery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomlazersheep/acmeGallery/issues"
+  },
+  "homepage": "https://github.com/tomlazersheep/acmeGallery#readme"
+}

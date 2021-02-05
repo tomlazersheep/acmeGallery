@@ -1,1 +1,12 @@
+// Normalize Styles
 @import 'reset';
+
+//Bootstrap (project requirement)
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+//Override Bootstrap Variables
+@import "variables";
+
+//Typography
+@import "typography";
+

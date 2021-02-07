@@ -1,0 +1,12 @@
+.hero {
+  height: 211px;
+  background-image: url('img/hero-desktop.png');
+  background-position: center;
+}
+
+.hero__title {
+  font-weight: 900;
+  color: $white;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+}

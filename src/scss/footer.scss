@@ -1,0 +1,12 @@
+.footer {
+  height: $footer_height;
+  border-top: 6px solid $primary;
+}
+
+.footer__copy {
+  font-weight: 500;
+  font-size: 20px;
+  color: $white;
+  letter-spacing: 0.4px;
+  margin-left: 10px;
+}

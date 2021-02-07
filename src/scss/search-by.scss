@@ -1,0 +1,29 @@
+.search-bar {
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+.search-by__label {
+  margin-right: 10px;
+  font-size: 20px;
+  color: $secondary;
+
+}
+
+.search-by__input-container {
+  position: relative;
+}
+
+.search-by__input {
+  width: 281px;    
+  padding-right: 50px;
+}
+
+.search-by__icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  height: 30px;
+  width: 30px;
+  transform: translateY(-50%);
+}

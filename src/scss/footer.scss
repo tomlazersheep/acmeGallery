@@ -1,6 +1,10 @@
 .footer {
   height: $footer_height;
   border-top: 6px solid $primary;
+  @include media-breakpoint-down(sm) {
+    border-top: 5px solid $primary;
+    height: 42px;
+  }
 }
 
 .footer__copy {
@@ -9,4 +13,8 @@
   color: $white;
   letter-spacing: 0.4px;
   margin-left: 10px;
+  @include media-breakpoint-down(sm) {
+    font-size: 16px;
+    
+  }
 }

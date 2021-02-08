@@ -1,0 +1,60 @@
+.article__author-wrapper {
+  padding: 13px 10px;
+  @include media-breakpoint-down(md) {
+    padding: 9px 10px;
+  
+  }
+}
+
+.article__card {
+  width: 350px;
+  height: 350px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 35px;
+  @include media-breakpoint-down(md) {
+    width: 311px;
+    height: 311px;
+    margin-bottom: 20px;
+  }
+}
+
+.article__avatar {
+  height: 46px;
+  width: 46px;
+}
+
+.article__text {
+  margin-left: 10px;
+}
+
+.article__author {
+  margin-bottom: 5px;
+}
+
+.article__hashtag {
+  margin: 0;
+  font-weight: normal;
+}
+
+.article__img-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: percentage(279/350);
+  overflow: hidden;
+}
+
+.article__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  transition: transform 500ms ease-in-out;
+  transform: none;
+  &:hover {
+    transform: scale(1.05);
+  }
+}

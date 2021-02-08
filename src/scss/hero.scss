@@ -2,6 +2,13 @@
   height: 211px;
   background-image: url('img/hero-desktop.png');
   background-position: center;
+  @include media-breakpoint-down(sm) {
+    height: 117px;
+  }
+  @include media-breakpoint-down(xs) {
+    background-position: center right;
+    background-image: url('img/hero-mobile.png');
+  }
 }
 
 .hero__title {
@@ -9,4 +16,8 @@
   color: $white;
   letter-spacing: 2px;
   margin-bottom: 25px;
+  @include media-breakpoint-down(sm) {
+    margin-bottom: 15px;
+    font-size: 40px;
+  }
 }
